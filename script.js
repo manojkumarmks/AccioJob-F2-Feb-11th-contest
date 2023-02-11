@@ -39,8 +39,8 @@ function concatenateArray() {
     { id: 6, name: "Jane", age: "20", marks: 80 },
     { id: 7, name: "Tom", age: "18", marks: 90 }
   ];
-  const concatenatedArray = arr.concat(newArray);
-  console.log(concatenatedArray);
+  arr = arr.concat(newArray);
+  console.log(arr);
 }
 PrintStudentswithMap();
 PrintStudentsbyForEach();
